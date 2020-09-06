@@ -13,7 +13,7 @@ pipeline {
                 }
             }
             steps {
-                echo "Hello World at the top!"
+                echo "Hello Dev"
             }
         }
         stage('Test') {
@@ -23,7 +23,7 @@ pipeline {
                 }
             } 
             steps {
-                echo "Hello World at the top!??"
+                echo "Hello Test"
             }
         }
         stage('Disabled Polling') {
@@ -33,7 +33,7 @@ pipeline {
                 }
             } 
             steps {
-                echo "Hello World at the top??????????"
+                echo "Hello Poll"
             }
         }
     }
